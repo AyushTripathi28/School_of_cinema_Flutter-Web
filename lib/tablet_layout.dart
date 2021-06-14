@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:school/layout/acting_desktop_tablet.dart';
 
 class TabletLayout extends StatelessWidget {
   @override
@@ -231,6 +232,10 @@ class TabletLayout extends StatelessWidget {
                     InkWell(onTap: () {}, child: Text("COLOR CORRECTION ")),
                   ],
                 ),
+              ),
+
+              ActingPage(
+                containerHeight: screenSize.width / 3.5,
               ),
 
               //----------------------------------Body-FINISH---------------------------------------------

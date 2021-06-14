@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:school/layout/acting_mobile.dart';
 
 GlobalKey<ScaffoldState> _scaffoldState = GlobalKey<ScaffoldState>();
 
@@ -9,7 +10,6 @@ class MobileLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.cyan,
       key: _scaffoldState,
       endDrawer: Drawer(
         child: ListView(
@@ -326,6 +326,8 @@ class MobileLayout extends StatelessWidget {
                 ],
               ),
             ),
+
+            ActingMobilePage(),
             //--------------------------------------------main-body-finish------------------------------
             SizedBox(
               height: 30,
