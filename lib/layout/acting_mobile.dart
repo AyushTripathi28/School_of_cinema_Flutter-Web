@@ -24,7 +24,7 @@ class ActingMobilePage extends StatelessWidget {
               children: [
                 Container(
                   padding: EdgeInsets.all(8),
-                  height: _width / 2.5,
+                  height: _width / 2,
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.red, width: 10),
                   ),
@@ -69,7 +69,7 @@ class ActingMobilePage extends StatelessWidget {
                 ),
                 Container(
                   padding: EdgeInsets.all(8),
-                  height: _width / 2.2,
+                  height: _width / 1.5,
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.red, width: 10),
                   ),
@@ -114,7 +114,7 @@ class ActingMobilePage extends StatelessWidget {
                 ),
                 Container(
                   padding: EdgeInsets.all(8),
-                  height: _width / 2.0,
+                  height: _width / 1.3,
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.red, width: 10),
                   ),

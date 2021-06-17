@@ -124,7 +124,7 @@ class MobileLayout extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 80),
+              padding: const EdgeInsets.symmetric(horizontal: 60),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
@@ -183,7 +183,7 @@ class MobileLayout extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: Container(
                 width: screenSize.width / 1.0,
-                height: screenSize.width / 7,
+                height: screenSize.width / 5,
                 decoration: BoxDecoration(
                   color: Colors.red,
                   borderRadius: BorderRadius.circular(10),
@@ -202,7 +202,7 @@ class MobileLayout extends StatelessWidget {
                             color: Colors.white),
                       ),
                       SizedBox(
-                        height: 10,
+                        height: screenSize.width/160,
                       ),
                       Text(
                         "3 months | 6 months | 12 months",
@@ -333,7 +333,7 @@ class MobileLayout extends StatelessWidget {
               height: 30,
             ),
             Container(
-              height: screenSize.width / 8,
+              height: screenSize.width / 6,
               padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
               color: Color(0xFF149BE4),
               child: Column(
@@ -347,7 +347,7 @@ class MobileLayout extends StatelessWidget {
                         'Contact Us',
                         style: TextStyle(
                           color: Colors.white,
-                          fontSize: 20,
+                          fontSize: 18,
                         ),
                       ),
                       InkWell(
@@ -356,7 +356,7 @@ class MobileLayout extends StatelessWidget {
                           ' 8789243904',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 15,
+                            fontSize: 13,
                           ),
                         ),
                       ),
@@ -366,7 +366,7 @@ class MobileLayout extends StatelessWidget {
                           ' 9631659416',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 15,
+                            fontSize: 13,
                           ),
                         ),
                       ),
@@ -383,7 +383,7 @@ class MobileLayout extends StatelessWidget {
                           'filmspaceproductions@gmail.com',
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 15,
+                            fontSize: 13,
                           ),
                         ),
                       ),
